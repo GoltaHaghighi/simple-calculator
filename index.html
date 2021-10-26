@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         
+         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+         <link rel="stylesheet" href="style.css">
+         <link
+         rel="stylesheet"
+         href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+         crossorigin="anonymous"
+     />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+            <title>claculator</title>
+        </head>
 <body>
-    <div class="calculator">
-        <div class="display">0</div>
-        <div class="keypad">
+    <div class="calculator container">
+        
+            
+        
+        <div class="keypad row align-items-center justify-content-center">
             <table class="keypad-table">
+                <tr>
+                    <td colspan="4">
+                        <div class="display pr-2">0d4</div>
+                    </td>
+                </tr>
               <tr>
-                  <td calss="key">AC</td>
-                  <td calss="key">C</td>
-                  <td calss="key">%</td>
-                  <td calss="key">/</td>
+                  <td class="key op clear-all">AC</td>
+                  <td class="key op clear-last">C</td>
+                  <td class="key op">%</td>
+                  <td class="key op">/</td>
               </tr>
               <tr>
-                  <td calss="key">7</td>
-                  <td calss="key">8</td>
-                  <td calss="key">9</td>
-                  <td calss="key">*</td>
+                  <td class="key">7</td>
+                  <td class="key">8</td>
+                  <td class="key">9</td>
+                  <td class="key op">*</td>
               </tr>
               <tr>
-                  <td calss="key">4</td>
-                  <td calss="key">5</td>
-                  <td calss="key">6</td>
-                  <td calss="key">-</td>
+                  <td class="key">4</td>
+                  <td class="key">5</td>
+                  <td class="key">6</td>
+                  <td class="key op">-</td>
               </tr>
               <tr>
-                  <td calss="key">1</td>
-                  <td calss="key">2</td>
-                  <td calss="key">3</td>
-                  <td calss="key">+</td>
+                  <td class="key">1</td>
+                  <td class="key">2</td>
+                  <td class="key">3</td>
+                  <td class="key op">+</td>
               </tr>
               <tr>
-                  <td colspan="2" calss="key">0</td>
-                  <td calss="key">.</td>
-                  <td calss="key">=</td>
+                  <td colspan="2" class="key">0</td>
+                  <td class="key">.</td>
+                  <td class="key op calculate">=</td>
               </tr> 
             </table>
         </div>
